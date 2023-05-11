@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#content-container {
+    padding:0% 10%;
+}
+    #top-bar {
+        height: 70px;
+        background-color: #cccccc;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 0px 30px;
+        margin-bottom: 30px;
+    }
+        #search-bar{
+            height:30px;
+            font-size: x-large;
+        }
+        #login-button{
+            border:3px solid black;
+            font-size: x-large;
+            height: 30px;
+            width: 100px;
+            box-shadow: 3px 3px black;
+            background-color: #2b78e4;
+            color:white;
+        }
+
+    #two-columns {
+        width:100%;
+        display:flex;
+    }
+        #left-column {
+            margin-right:30px;
+            flex:2;
+        }
+            .ninja-box {
+                border:3px solid darkgrey;
+                height: 270px;
+                margin-bottom:30px;
+                display:flex;
+                font-size: x-large;
+            }
+                .ninja-box-left-side {
+                    padding-top: 20px;
+                    flex:1;
+                    text-align:center;
+                }
+                    .italics {
+                        font-style: italic;
+                        margin: 15px 0px;
+                    }
+                    .likes-button {
+                        margin-top:30px;
+                        background-color:yellow;
+                        border:2px solid black;
+                        font-size: 30px;
+                    }
+
+                .ninja-box-right-side {
+                    display:flex;
+                    flex:3;
+                    align-items: center;
+                    padding:30px;
+                    font-size:35px;
+                    flex-wrap:wrap;
+                }
+
+        #right-column {
+            flex: 1;
+        }
+            #right-box {
+                border:3px solid darkgray;
+                padding:30px;
+                font-size:30px;
+            }
+                #add-definition-button {
+                    margin-top:15px;
+                    width:100%;
+                    background-color: #93c47d;
+                    font-size: 30px;
+                    box-shadow: 3px 3px black;
+                }
